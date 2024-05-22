@@ -21,19 +21,19 @@
 | Custom Fonts                   |
 \*------------------------------*/
 
-@\import url('https://www.dafontfree.net/embed/dGV4dGlsZS1yZWd1bGFyJmRhdGEvMjgvdC8xNDUyOTgvVGV4dGlsZS50dGY');
-@\import url('https://www.dafontfree.net/embed/Y2hpY2Fnby1yZWd1bGFyJmRhdGEvMzIvYy8xNTQ5OTEvQ2hpY2FnbyBSZWd1bGFyLnR0Zg');
-@\import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@\import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+@\import "https://www.dafontfree.net/embed/dGV4dGlsZS1yZWd1bGFyJmRhdGEvMjgvdC8xNDUyOTgvVGV4dGlsZS50dGY";
+@\import "https://www.dafontfree.net/embed/Y2hpY2Fnby1yZWd1bGFyJmRhdGEvMzIvYy8xNTQ5OTEvQ2hpY2FnbyBSZWd1bGFyLnR0Zg";
+@\import "https://fonts.googleapis.com/css2?family=Amiri&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Cairo&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Secular+One&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Baumans&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@\import "https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700;800&display=swap";
 
 /*------------------------E-N-D-*/
 
@@ -44,9 +44,9 @@
 \*------------------------------*/
 
 body {
-    --avatar: url(https://cdn.myanimelist.net/images/userimages/7261935.jpg);
+    --avatar: url('https://cdn.myanimelist.net/images/userimages/7261935.jpg');
     --name: "Noam\a   Rault";
-    --character: url(https://lh3.google.com/u/0/d/1nwheceMHwZjI8YLv9BGT5bLW0uYWSjCt=w1920-h969-iv1);
+    --character: url('https://lh3.google.com/u/0/d/1nwheceMHwZjI8YLv9BGT5bLW0uYWSjCt=w1920-h969-iv1');
 }
 
 .data.image a:after,
@@ -121,8 +121,9 @@ body {
 
 .data.number {
     background: transparent;
-    font-size: 10pt;
-    font-weight: 700;
+    font-family: 'Kanit';
+    font-size: 12pt;
+    font-weight: 500;
     line-height: 20px;
     order: 1;
     position: relative;
