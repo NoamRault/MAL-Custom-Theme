@@ -1,0 +1,1013 @@
+/*-S-T-A-R-T--------------------*\
+| Imports                        |
+\*------------------------------*/
+
+/* Initial Import */
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+
+/* Row Hover Image Import */
+@\import "https://malscraper.azurewebsites.net/covers/anime/NoamRault/presets/dataimagelinkbefore";
+@\import "https://malscraper.azurewebsites.net/covers/manga/NoamRault/presets/dataimagelinkbefore";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
+
+/* Dark Mode Import */
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Custom Fonts                   |
+\*------------------------------*/
+
+@\import url('https://www.dafontfree.net/embed/dGV4dGlsZS1yZWd1bGFyJmRhdGEvMjgvdC8xNDUyOTgvVGV4dGlsZS50dGY');
+@\import url('https://www.dafontfree.net/embed/Y2hpY2Fnby1yZWd1bGFyJmRhdGEvMzIvYy8xNTQ5OTEvQ2hpY2FnbyBSZWd1bGFyLnR0Zg');
+@\import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@\import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Changes of Images/Texts        |
+\*------------------------------*/
+
+body {
+    --avatar: url(https://cdn.myanimelist.net/images/userimages/7261935.jpg);
+    --name: "Noam\a   Rault";
+    --character: url(https://lh3.google.com/u/0/d/1nwheceMHwZjI8YLv9BGT5bLW0uYWSjCt=w1920-h969-iv1);
+}
+
+.data.image a:after,
+.data.image img {
+    border-radius: 30%;
+}
+
+.data.image a:before {
+    border-radius: 4px;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Restore Watch Icon             |
+\*------------------------------*/
+
+/* legacy selector, just in case it's still needed */
+.icon-watch,
+.icon-watch2 {
+    display: initial !important;
+}
+
+.modal-content,
+.mal-modal-content {
+    background-color: #212121 !important;
+}
+
+.modal-content .fa-solid,
+.mal-modal-content .fa-solid {
+    color: #FFF !important;
+}
+
+.modal-content .caption,
+.mal-modal-content .caption {
+    color: #FFF !important;
+}
+
+.broadcast a:hover {
+    background-color: #161616 !important;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Changes of List Width          |
+\*------------------------------*/
+
+.list-block {
+    min-width: 1060px !important;
+    width: 80% !important;
+    max-width: 1200px !important;
+}
+
+.list-table-data {
+    max-width: 100% !important;
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Anime Number                   |
+\*------------------------------*/
+
+.data.number {
+    background: transparent;
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 20px;
+    order: 1;
+    position: relative;
+    text-align: left !important;
+    top: -42px;
+    z-index: 1;
+}
+
+.data.number::after {
+    content: ".";
+}
+
+.list-item:nth-child(n+101) .data.number {
+    text-indent: 0 !important;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Border Boxes                   |
+\*------------------------------*/
+
+.data.demographic a,
+.data.genre a,
+.data.licensor a,
+.data.studio a,
+.data.score a span {
+    border: 3px solid;
+    box-sizing: border-box;
+    border-color: #191919;
+}
+
+.data.tags a:not(.edit) {
+    border: 2px solid;
+    box-sizing: border-box;
+    border-color: #191919;
+}
+
+.data.rated {
+    width: 84px;
+    margin-left: -84px;
+    margin-top: -34px;
+}
+
+.data.season {
+    width: 84px;
+    margin-top: 34px;
+    margin-right: 0;
+    order: 19;
+}
+
+.data.mal_score,
+.data.progress {
+    width: 80px;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Score Colors            |
+\*------------------------------*/
+
+.data.score {
+    height: 32px;
+    width: 32px;
+}
+
+.data.score>a {
+    background-color: transparent;
+}
+
+.data.score>a>span {
+    background-color: #191919;
+    border-radius: 40%;
+    font-family: 'Kanit';
+    font-size: 1.5em;
+    font-weight: 800;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .3s ease !important;
+    width: 32px;
+}
+
+.data.score>a>span:hover {
+    background: var(--btn-bg-h) !important;
+    color: var(--btn-text-h) !important;
+}
+
+.score-10,
+.data.tags span a[href$="1st"] {
+    border-color: #5FD8F7 !important;
+    color: #5FD8F7 !important;
+}
+
+.score-9,
+.data.tags span a[href$="2nd"] {
+    border-color: #FFDB38 !important;
+    color: #FFDB38 !important;
+}
+
+.score-8,
+.data.tags span a[href$="3rd"] {
+    border-color: #BFBFBF !important;
+    color: #BFBFBF !important;
+}
+
+.score-7,
+.data.tags span a[href$="4th"] {
+    border-color: #E1A17A !important;
+    color: #E1A17A !important;
+}
+
+.score-6,
+.data.tags span a[href$="5th"] {
+    border-color: #33E668 !important;
+    color: #33E668 !important;
+}
+
+.score-5,
+.data.tags span a[href$="6th"] {
+    border-color: #8FA0FF !important;
+    color: #8FA0FF !important;
+}
+
+.score-4,
+.data.tags span a[href$="7th"] {
+    border-color: #CE86FE !important;
+    color: #CE86FE !important;
+}
+
+.score-3,
+.data.tags span a[href$="8th"] {
+    border-color: #FF70DB !important;
+    color: #FF70DB !important;
+}
+
+.score-2,
+.data.tags span a[href$="9th"] {
+    border-color: #FE8543 !important;
+    color: #FE8543 !important;
+}
+
+.score-1,
+.data.tags span a[href$="10th"] {
+    border-color: #FE7C7C !important;
+    color: #FE7C7C !important;
+}
+
+.score-na {
+    border-color: #191919 !important;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Tags Colors             |
+\*------------------------------*/
+
+/* Seasonal Ranking */
+.data.tags span a[href$="Top%2020"],
+.data.tags span a[href$="Top%2030"] {
+    border-color: #1f0101 !important;
+}
+
+/* Français */
+.data.tags span a[href$="Fran%C3%A7ais"] {
+    border-color: #0055A4 !important;
+}
+
+.data.tags span a[href$="Fran%C3%A7ais"]:before {
+    content: "🇫🇷 ";
+}
+
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Studios Colors          |
+\*------------------------------*/
+
+/* Kyoto Animation */
+.data.studio span a[href$="/2"] {
+    color: #e6521e !important;
+    border-color: #e6521e !important;
+    font-family: 'Textile', 'textile-regular' !important;
+    letter-spacing: 0.5pt;
+}
+
+/* J.C.Staff */
+.data.studio span a[href$="/7"] {
+    color: #87877a !important;
+    border-color: #cf1c30 !important;
+    font-size: 10pt !important;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Madhouse */
+.data.studio span a[href$="/11"],
+/* Shaft */
+.data.studio span a[href$="/44"],
+/* SIVLER LINK. */
+.data.studio span a[href$="/300"],
+/* White Fox */
+.data.studio span a[href$="/314"] {
+    color: white !important;
+    border-color: white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Sunrise */
+.data.studio span a[href$="/14"] {
+    color: #e91a21 !important;
+    border-color: #1c3a79 !important;
+    font-family: 'Chivo' !important;
+    font-size: 12pt !important;
+    text-transform: uppercase;
+}
+
+/* OLM */
+.data.studio span a[href$="/28"] {
+    color: #547299 !important;
+    border-color: #547299 !important;
+    font-family: 'Secular One', sans-serif;
+    font-size: 12pt !important;
+}
+
+/* Ajia-Do */
+.data.studio span a[href$="/30"] {
+    color: #8a8686 !important;
+    border-color: #b4081c !important;
+    font-family: Arial, sans-serif;
+    font-size: 11pt !important;
+    font-weight: bold;
+}
+
+/* A-1 Pictures */
+.data.studio span a[href$="/56"] {
+    color: #5784cc !important;
+    border-color: #5784cc !important;
+    font-family: 'Cairo' !important;
+    font-size: 10pt !important;
+    font-weight: bold;
+}
+
+/* Doga Kobo */
+.data.studio span a[href$="/95"] {
+    color: #ff3d3d !important;
+    border-color: #ff3d3d !important;
+    font-family: sans-serif;
+    font-size: 11pt !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* SynergySP */
+.data.studio span a[href$="/118"] {
+    color: #5b77a2 !important;
+    border-color: #5b77a2 !important;
+    font-family: 'Baumans', cursive;
+    font-size: 11pt !important;
+    font-weight: bold;
+    letter-spacing: 0.5pt !important;
+}
+
+/* P.A. Works */
+.data.studio span a[href$="/132"] {
+    color: #eb6303 !important;
+    border-color: #eb6303 !important;
+    font-family: 'Amiri' !important;
+    font-size: 11pt !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Shin-Ei Animation */
+.data.studio span a[href$="/247"] {
+    color: #e60000 !important;
+    border-color: #e60000 !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12pt !important;
+    font-weight: bold;
+    letter-spacing: 0.5pt !important;
+    text-transform: uppercase;
+}
+
+/* Kinema Citrus */
+.data.studio span a[href$="/290"] {
+    color: #aace37 !important;
+    border-color: #007457 !important;
+    font-size: 10pt !important;
+}
+
+/* MAPPA */
+.data.studio span a[href$="/569"] {
+    color: #006837 !important;
+    border-color: #006837 !important;
+    font-weight: bold;
+}
+
+/* Wit Studio */
+.data.studio span a[href$="/858"] {
+    color: #28893a !important;
+    border-color: #28893a !important;
+    font-family: sans-serif;
+    font-size: 11.5pt !important;
+    font-weight: 700;
+    letter-spacing: 0.5pt !important;
+    text-transform: uppercase;
+}
+
+/* Bandai Namco Pictures */
+.data.studio span a[href$="/1258"] {
+    color: #fefefe !important;
+    border-color: #e9001a !important;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10pt !important;
+    text-transform: uppercase;
+}
+
+/* Felix Film */
+.data.studio span a[href$="/1440"] {
+    color: white !important;
+    border-color: white !important;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 14pt !important;
+    font-weight: bold;
+}
+
+/* DR Movie */
+.data.studio span a[href$="/1575"] {
+    color: #cb4829 !important;
+    border-color: #595656 !important;
+    font-family: 'Secular One', sans-serif;
+    font-size: 12pt !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Science SARU */
+.data.studio span a[href$="/1591"] {
+    color: white !important;
+    border-color: white !important;
+    font-weight: bold;
+}
+
+/* CloverWorks */
+.data.studio span a[href$="/1835"] {
+    color: #fb5e81 !important;
+    border-color: #5a5aaa !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt !important;
+    font-weight: 900;
+}
+
+/* ENGI */
+.data.studio span a[href$="/1974"] {
+    color: white !important;
+    border-color: white !important;
+    font-family: serif;
+    font-size: 12pt !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Studio Bind */
+.data.studio span a[href$="/1993"] {
+    color: #26b58e !important;
+    border-color: #d9e259 !important;
+    font-family: 'Fredoka One' !important;
+    font-size: 11pt !important;
+    letter-spacing: 0.8pt;
+    text-transform: uppercase;
+}
+
+/* hololive production */
+.data.studio span a[href$="/2167"],
+.data.tags span a[href$="hololive"] {
+    color: #34c9fe !important;
+    border-color: #4e9eed !important;
+    font-family: 'Chicago', 'chicago-regular' !important;
+    font-size: 10pt !important;
+    text-transform: lowercase;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Genres/Themes/Demog. numbers   |
+\*------------------------------*/
+
+/* Genres
+01 => Action
+02 => Demons
+04 => Comedy
+05 => Avant Garde
+07 => Mystery
+08 => Drama
+09 => Ecchi
+10 => Fantasy
+12 => Hentai
+14 => Horror
+22 => Romance
+24 => Sci-Fi
+26 => Girls Love
+28 => Boys Love
+30 => Sports
+36 => Slice of Life
+37 => Supernatural
+41 => Suspense (Anime)
+45 => Suspense (Manga)
+46 => Award Winning
+47 => Gourmet
+48 => Work Life
+49 => Erotica
+*/
+
+/* Themes
+03 => Cars
+06 => Demons
+11 => Game
+13 => Historical
+17 => Martial Arts
+18 => Mecha
+19 => Music
+20 => Parody
+21 => Samurai
+23 => School
+29 => Space
+31 => Super Power
+32 => Vampire
+35 => Harem
+38 => Military
+39 => Police
+40 => Psychological
+*/
+
+/* Demographics
+15 => Kids
+25 => Shoujo
+27 => Shounen
+42 => Seinen
+43 => Josei
+*/
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Genres Colors           |
+\*------------------------------*/
+
+.data.genre span a {
+    border: 3px solid;
+    box-sizing: border-box;
+}
+
+.data.genre span a:before {
+    display: flex;
+    text-align: left;
+    line-height: 0;
+    top: 7px;
+    position: relative;
+}
+
+/* Action */
+.data.genre span a[href$="genre=1"] {
+    border-color: darkred;
+}
+
+.data.genre span a[href$="genre=1"]:before {
+    content: "👊";
+}
+
+/* Adventure */
+.data.genre span a[href$="genre=2"] {
+    border-color: darkgreen;
+}
+
+.data.genre span a[href$="genre=2"]:before {
+    content: "⚔️";
+}
+
+/* Comedy */
+.data.genre span a[href$="genre=4"] {
+    border-color: #757536;
+}
+
+.data.genre span a[href$="genre=4"]:before {
+    content: "🤣";
+}
+
+/* Avant Garde */
+.data.genre span a[href$="genre=5"] {
+    border-color: darkslateblue;
+}
+
+.data.genre span a[href$="genre=5"]:before {
+    content: "💫";
+}
+
+/* Mystery */
+.data.genre span a[href$="genre=7"] {
+    border-color: darkslategrey;
+}
+
+.data.genre span a[href$="genre=7"]:before {
+    content: "❓";
+}
+
+/* Drama */
+.data.genre span a[href$="genre=8"] {
+    border-color: darkblue;
+}
+
+.data.genre span a[href$="genre=8"]:before {
+    content: "🥺";
+}
+
+/* Ecchi */
+.data.genre span a[href$="genre=9"] {
+    border-color: orchid;
+}
+
+.data.genre span a[href$="genre=9"]:before {
+    content: "🍈";
+}
+
+/* Fantasy */
+.data.genre span a[href$="genre=10"] {
+    border-color: #137913;
+}
+
+.data.genre span a[href$="genre=10"]:before {
+    content: "🏰";
+}
+
+/* Hentai */
+.data.genre span a[href$="genre=12"] {
+    border-color: darkorchid;
+}
+
+.data.genre span a[href$="genre=12"]:before {
+    content: "🍆";
+}
+
+/* Horror */
+.data.genre span a[href$="genre=14"] {
+    border-color: #440404;
+}
+
+.data.genre span a[href$="genre=14"]:before {
+    content: "💀";
+}
+
+/* Romance */
+.data.genre span a[href$="genre=22"] {
+    border-color: darkmagenta;
+}
+
+.data.genre span a[href$="genre=22"]:before {
+    content: "❤️";
+}
+
+/* Sci-Fi */
+.data.genre span a[href$="genre=24"] {
+    border-color: #097056;
+}
+
+.data.genre span a[href$="genre=24"]:before {
+    content: "🤖";
+}
+
+/* Girls Love */
+.data.genre span a[href$="genre=26"] {
+    border-color: #920e41;
+}
+
+.data.genre span a[href$="genre=26"]:before {
+    content: "👩‍❤️‍💋‍👩";
+}
+
+/* Boys Love */
+.data.genre span a[href$="genre=28"] {
+    border-color: #0c4586;
+}
+
+.data.genre span a[href$="genre=28"]:before {
+    content: "👨‍❤️‍💋‍👨";
+}
+
+/* Sports */
+.data.genre span a[href$="genre=30"] {
+    border-color: #295c3a;
+}
+
+.data.genre span a[href$="genre=30"]:before {
+    content: "⚽";
+}
+
+/* Slice of Life */
+.data.genre span a[href$="genre=36"] {
+    border-color: #087272;
+}
+
+.data.genre span a[href$="genre=36"]:before {
+    content: "🍕";
+}
+
+/* Supernatural */
+.data.genre span a[href$="genre=37"] {
+    border-color: #864011;
+}
+
+.data.genre span a[href$="genre=37"]:before {
+    content: "🧛";
+}
+
+/* Suspense */
+.data.genre span a[href$="genre=41"],
+.data.genre span a[href$="genre=45"] {
+    border-color: #455f08;
+}
+
+.data.genre span a[href$="genre=41"]:before,
+.data.genre span a[href$="genre=45"]:before {
+    content: "😲";
+}
+
+/* Award Winning */
+.data.genre span a[href$="genre=46"] {
+    border-color: #beb200;
+}
+
+.data.genre span a[href$="genre=46"]:before {
+    content: "🏆";
+}
+
+/* Gourmet */
+.data.genre span a[href$="genre=47"] {
+    border-color: #0e2174;
+}
+
+.data.genre span a[href$="genre=47"]:before {
+    content: "🍽️";
+}
+
+/* Work Life */
+.data.genre span a[href$="genre=48"] {
+    border-color: #1c5788;
+}
+
+.data.genre span a[href$="genre=48"]:before {
+    content: "🧑‍💼";
+}
+
+/* Erotica */
+.data.genre span a[href$="genre=49"] {
+    border-color: #b429d6;
+}
+
+.data.genre span a[href$="genre=49"]:before {
+    content: "💦";
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Demographics Colors     |
+\*------------------------------*/
+
+.data.demographic span a {
+    border: 3px solid;
+}
+
+/* Kids */
+.data.demographic span a[href$="demographic=15"] {
+    border-color: #204917;
+}
+
+/* Shoujo */
+.data.demographic span a[href$="demographic=25"] {
+    border-color: #580d4c;
+}
+
+/* Shounen */
+.data.demographic span a[href$="demographic=27"] {
+    border-color: #15556e;
+}
+
+/* Seinen */
+.data.demographic span a[href$="demographic=42"] {
+    border-color: #121761;
+}
+
+/* Josei */
+.data.demographic span a[href$="demographic=43"] {
+    border-color: #590c63;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Change Status Bar Width        |
+\*------------------------------*/
+
+.data.status {
+    width: 1px !important;
+}
+
+.list-table-data {
+    padding-left: 0px;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Category Color Header Text     |
+\*------------------------------*/
+
+.status-menu .status-button {
+    transition: color .3s ease
+}
+
+.status-menu .status-button.on:nth-of-type(1),
+.status-menu .status-button:nth-of-type(1):hover {
+    color: var(--accent) !important
+}
+
+.status-menu .status-button.on:nth-of-type(2),
+.status-menu .status-button:nth-of-type(2):hover {
+    color: var(--watching) !important
+}
+
+.status-menu .status-button.on:nth-of-type(3),
+.status-menu .status-button:nth-of-type(3):hover {
+    color: var(--completed) !important
+}
+
+.status-menu .status-button.on:nth-of-type(4),
+.status-menu .status-button:nth-of-type(4):hover {
+    color: var(--onhold) !important
+}
+
+.status-menu .status-button.on:nth-of-type(5),
+.status-menu .status-button:nth-of-type(5):hover {
+    color: var(--dropped) !important
+}
+
+.status-menu .status-button.on:nth-of-type(6),
+.status-menu .status-button:nth-of-type(6):hover {
+    color: var(--plantowatch) !important
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Overflow Titles on Hover       |
+\*------------------------------*/
+
+.data.title .link.sort {
+    transition: none !important;
+}
+
+.data.title .link.sort:hover {
+    display: block;
+    height: 16px;
+    border-radius: 3px;
+    padding: 0;
+    margin-right: 8px;
+    overflow: hidden;
+    white-space: normal;
+    transition: none !important;
+    z-index: 1;
+    height: auto;
+    padding: 2px 4px;
+    background: var(--btn-bg);
+    margin: 8px 0 0 -4px;
+    transform: translateY(-50%);
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Favourite Hearts (Left) R0.4   |
+\*------------------------------*/
+
+.data.tags span {
+    padding: 0
+}
+
+.data.tags span a {
+    margin: 1px 0
+}
+
+.data.tags span a[href*="=Favorite"],
+.data.tags span a[href*="=Favourite"] {
+    border-color: #ff6aa0;
+    padding: 1px !important;
+    width: 21px;
+    height: 21px;
+    font-size: 0 !important;
+    line-height: 0;
+}
+
+.data.tags span a[href*="=Favorite"]:before,
+.data.tags span a[href*="=Favourite"]:before {
+    content: "🩷";
+    font-size: 11px;
+    line-height: 15px;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Horizontal Tags R0.3           |
+\*------------------------------*/
+
+.list-table-data {
+    padding-bottom: 11px
+}
+
+.data.tags {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: flex !important;
+    width: 0;
+    height: 100%;
+    padding: 0 !important;
+    align-items: flex-end
+}
+
+.data.tags div {
+    max-width: 980px;
+    margin: 0 0 4px 80px;
+    font-size: 0;
+    white-space: nowrap
+}
+
+.data.tags span {
+    display: inline-block;
+    padding: 0
+}
+
+.data.tags span a {
+    padding: 1px 8px !important;
+    margin: 0 4px 0 0;
+    white-space: nowrap
+}
+
+.data.tags a.edit {
+    right: auto
+}
+
+.data.tags textarea {
+    right: -1060px
+}
+
+/*------------------------E-N-D-*/
