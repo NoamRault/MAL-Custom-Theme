@@ -124,6 +124,11 @@ body {
     color: black;
 }
 
+.data.status.reading+.data.number {
+    background: var(--reading);
+    color: black;
+}
+
 .data.status.completed+.data.number {
     background: var(--completed);
     color: white;
@@ -141,6 +146,11 @@ body {
 
 .data.status.plantowatch+.data.number {
     background: var(--plantowatch);
+    color: black;
+}
+
+.data.status.plantoread+.data.number {
+    background: var(--plantoread);
     color: black;
 }
 
