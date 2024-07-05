@@ -119,21 +119,39 @@ body {
 | Anime Number                   |
 \*------------------------------*/
 
-.data.number {
-    background: transparent;
-    font-family: 'Kanit';
-    font-size: 12pt;
-    font-weight: 500;
-    line-height: 20px;
-    order: 1;
-    position: relative;
-    text-align: left !important;
-    top: -42px;
-    z-index: 1;
+.data.status.watching+.data.number {
+    background: var(--watching);
 }
 
-.data.number::after {
-    content: ".";
+.data.status.completed+.data.number {
+    background: var(--completed);
+}
+
+.data.status.onhold+.data.number {
+    background: var(--onhold);
+}
+
+.data.status.dropped+.data.number {
+    background: var(--dropped);
+}
+
+.data.status.plantowatch+.data.number {
+    background: var(--plantowatch);
+}
+
+.data.number {
+    border-radius: 0 0 40% 0;
+    color: white;
+    font-family: 'Kanit';
+    font-size: 12pt;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    order: 1;
+    position: absolute;
+    text-align: center !important;
+    top: 0;
+    width: 30px;
 }
 
 .list-item:nth-child(n+101) .data.number {
