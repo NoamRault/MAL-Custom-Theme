@@ -101,7 +101,7 @@ body {
 
 .list-block {
     min-width: 1060px !important;
-    width: 80% !important;
+    width: 100% !important;
     max-width: 1200px !important;
 }
 
@@ -121,27 +121,31 @@ body {
 
 .data.status.watching+.data.number {
     background: var(--watching);
+    color: black;
 }
 
 .data.status.completed+.data.number {
     background: var(--completed);
+    color: white;
 }
 
 .data.status.onhold+.data.number {
     background: var(--onhold);
+    color: black;
 }
 
 .data.status.dropped+.data.number {
     background: var(--dropped);
+    color: white;
 }
 
 .data.status.plantowatch+.data.number {
     background: var(--plantowatch);
+    color: black;
 }
 
 .data.number {
     border-radius: 0 0 40% 0;
-    color: white;
     font-family: 'Kanit';
     font-size: 12pt;
     font-weight: 700;
@@ -151,11 +155,25 @@ body {
     position: absolute;
     text-align: center !important;
     top: 0;
-    width: 30px;
+    width: 20px;
+}
+
+.list-item:nth-child(n+11) .data.number {
+    margin: 0;
+    text-indent: 0 !important;
+    width: 30px !important;
 }
 
 .list-item:nth-child(n+101) .data.number {
+    margin: 0;
     text-indent: 0 !important;
+    width: 40px !important;
+}
+
+.list-item:nth-child(n+1001) .data.number {
+    margin: 0;
+    text-indent: 0 !important;
+    width: 50px !important;
 }
 
 /*------------------------E-N-D-*/
@@ -1022,7 +1040,7 @@ body {
 }
 
 .data.tags a.edit {
-    right: auto
+    right: -1200px
 }
 
 .data.tags textarea {
