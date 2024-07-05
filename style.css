@@ -1050,7 +1050,13 @@ body {
 }
 
 .data.tags a.edit {
-    right: -1200px
+    right: -1060px
+}
+
+@media (min-width: 1200px) {
+    .data.tags a.edit {
+        right: -1200px
+    }
 }
 
 .data.tags textarea {
