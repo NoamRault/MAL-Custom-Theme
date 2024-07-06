@@ -204,8 +204,8 @@ body {
     line-height: 20px;
     margin: 0;
     order: 1;
-    padding-left: 25px !important;
-    padding-right: 5px !important;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
     position: absolute;
     text-align: left !important;
     top: 0;
@@ -214,15 +214,15 @@ body {
 }
 
 .list-item:nth-child(n+11) .data.type {
-    padding-left: 35px !important;
+    padding-left: 40px !important;
 }
 
 .list-item:nth-child(n+101) .data.type {
-    padding-left: 45px !important;
+    padding-left: 50px !important;
 }
 
 .list-item:nth-child(n+1001) .data.type {
-    padding-left: 55px !important;
+    padding-left: 60px !important;
 }
 
 /*------------------------E-N-D-*/
