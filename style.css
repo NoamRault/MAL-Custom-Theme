@@ -155,7 +155,7 @@ body {
 }
 
 .data.number {
-    border-radius: 0 0 40% 0;
+    border-radius: 0 0 10px 0;
     font-family: 'Kanit';
     font-size: 12pt;
     font-weight: 700;
@@ -184,6 +184,45 @@ body {
     margin: 0;
     text-indent: 0 !important;
     width: 50px !important;
+}
+
+/*------------------------E-N-D-*/
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Anime Type                     |
+\*------------------------------*/
+
+.data.type {
+    background: var(--btn-bg);
+    border-radius: 0 0 10px 0;
+    color: var(--text-dark);
+    font-family: 'Kanit';
+    font-size: 10pt;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    order: 1;
+    padding-left: 25px !important;
+    padding-right: 5px !important;
+    position: absolute;
+    text-align: left !important;
+    top: 0;
+    width: auto;
+    z-index: 0;
+}
+
+.list-item:nth-child(n+11) .data.type {
+    padding-left: 35px !important;
+}
+
+.list-item:nth-child(n+101) .data.type {
+    padding-left: 45px !important;
+}
+
+.list-item:nth-child(n+1001) .data.type {
+    padding-left: 55px !important;
 }
 
 /*------------------------E-N-D-*/
