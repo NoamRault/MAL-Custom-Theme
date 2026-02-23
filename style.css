@@ -388,7 +388,6 @@ body {
     content: "🇫🇷 ";
 }
 
-
 /*------------------------E-N-D-*/
 
 
@@ -491,7 +490,7 @@ body {
     /*font-family: 'Amiri' !important;
     font-size: 11pt !important;
     font-weight: bold;
-    text-transform: uppercase;"/
+    text-transform: uppercase;*/
 }
 
 /* Shin-Ei Animation */
@@ -534,64 +533,64 @@ body {
 .data.studio span a[href$="/1258"] {
     color: #fefefe !important;
     border-color: #e9001a !important;
-    font-family: 'Noto Sans JP', sans-serif;
+    /*font-family: 'Noto Sans JP', sans-serif;
     font-size: 10pt !important;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Felix Film */
 .data.studio span a[href$="/1440"] {
     color: white !important;
     border-color: white !important;
-    font-family: 'Grape Nuts', cursive;
+    /*font-family: 'Grape Nuts', cursive;
     font-size: 14pt !important;
-    font-weight: bold;
+    font-weight: bold;*/
 }
 
 /* DR Movie */
 .data.studio span a[href$="/1575"] {
     color: #cb4829 !important;
     border-color: #595656 !important;
-    font-family: 'Secular One', sans-serif;
+    /*font-family: 'Secular One', sans-serif;
     font-size: 12pt !important;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Science SARU */
 .data.studio span a[href$="/1591"] {
     color: white !important;
     border-color: white !important;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 /* CloverWorks */
 .data.studio span a[href$="/1835"] {
     color: #fb5e81 !important;
     border-color: #5a5aaa !important;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;
     font-size: 12pt !important;
-    font-weight: 900;
+    font-weight: 900;*/
 }
 
 /* ENGI */
 .data.studio span a[href$="/1974"] {
     color: white !important;
     border-color: white !important;
-    font-family: serif;
+    /*font-family: serif;
     font-size: 12pt !important;
     font-weight: bolder;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Studio Bind */
 .data.studio span a[href$="/1993"] {
     color: #26b58e !important;
     border-color: #d9e259 !important;
-    font-family: 'Fredoka One' !important;
+    /*font-family: 'Fredoka One' !important;
     font-size: 11pt !important;
     letter-spacing: 0.8pt;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* hololive production */
