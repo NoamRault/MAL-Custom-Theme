@@ -21,8 +21,6 @@
 | Custom Fonts                   |
 \*------------------------------*/
 
-@\import "https://www.dafontfree.net/embed/dGV4dGlsZS1yZWd1bGFyJmRhdGEvMjgvdC8xNDUyOTgvVGV4dGlsZS50dGY";
-@\import "https://www.dafontfree.net/embed/Y2hpY2Fnby1yZWd1bGFyJmRhdGEvMzIvYy8xNTQ5OTEvQ2hpY2FnbyBSZWd1bGFyLnR0Zg";
 @\import "https://fonts.googleapis.com/css2?family=Amiri&display=swap";
 @\import "https://fonts.googleapis.com/css2?family=Cairo&display=swap";
 @\import "https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap";
@@ -159,20 +157,21 @@ body {
     font-family: 'Kanit';
     font-size: 12pt;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 20px;
     margin: 0;
     order: 1;
     position: absolute;
     text-align: center !important;
     top: 0;
-    width: 40px;
+    width: 20px;
 }
 
 .list-item:nth-child(n+11) .data.number {
+    margin: 0;
     text-indent: 0 !important;
-    /*width: 30px !important;*/
+    width: 30px !important;
 }
-/*
+
 .list-item:nth-child(n+101) .data.number {
     margin: 0;
     text-indent: 0 !important;
@@ -184,7 +183,7 @@ body {
     text-indent: 0 !important;
     width: 50px !important;
 }
-*/
+
 /*------------------------E-N-D-*/
 
 
@@ -402,18 +401,18 @@ body {
 .data.studio span a[href$="/2"] {
     color: #e6521e !important;
     border-color: #e6521e !important;
-    font-family: 'Textile', 'textile-regular' !important;
-    letter-spacing: 0.5pt;
+    /*font-family: 'Textile', 'textile-regular' !important;
+    letter-spacing: 0.5pt;*/
 }
 
 /* J.C.Staff */
 .data.studio span a[href$="/7"] {
     color: #87877a !important;
     border-color: #cf1c30 !important;
-    font-size: 10pt !important;
+    /*font-size: 10pt !important;
     font-style: italic;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Madhouse */
@@ -426,109 +425,109 @@ body {
 .data.studio span a[href$="/314"] {
     color: white !important;
     border-color: white !important;
-    font-weight: bold;
-    text-transform: uppercase;
+    /*font-weight: bold;
+    text-transform: uppercase;*/
 }
 
 /* Sunrise */
 .data.studio span a[href$="/14"] {
     color: #e91a21 !important;
     border-color: #1c3a79 !important;
-    font-family: 'Chivo' !important;
+    /*font-family: 'Chivo' !important;
     font-size: 12pt !important;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* OLM */
 .data.studio span a[href$="/28"] {
     color: #547299 !important;
     border-color: #547299 !important;
-    font-family: 'Secular One', sans-serif;
-    font-size: 12pt !important;
+    /*font-family: 'Secular One', sans-serif;
+    font-size: 12pt !important;*/
 }
 
 /* Ajia-Do */
 .data.studio span a[href$="/30"] {
     color: #8a8686 !important;
     border-color: #b4081c !important;
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;
     font-size: 11pt !important;
-    font-weight: bold;
+    font-weight: bold;*/
 }
 
 /* A-1 Pictures */
 .data.studio span a[href$="/56"] {
     color: #5784cc !important;
     border-color: #5784cc !important;
-    font-family: 'Cairo' !important;
+    /*font-family: 'Cairo' !important;
     font-size: 10pt !important;
-    font-weight: bold;
+    font-weight: bold;*/
 }
 
 /* Doga Kobo */
 .data.studio span a[href$="/95"] {
     color: #ff3d3d !important;
     border-color: #ff3d3d !important;
-    font-family: sans-serif;
+    /*font-family: sans-serif;
     font-size: 11pt !important;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* SynergySP */
 .data.studio span a[href$="/118"] {
     color: #5b77a2 !important;
     border-color: #5b77a2 !important;
-    font-family: 'Baumans', cursive;
+    /*font-family: 'Baumans', cursive;
     font-size: 11pt !important;
     font-weight: bold;
-    letter-spacing: 0.5pt !important;
+    letter-spacing: 0.5pt !important;*/
 }
 
 /* P.A. Works */
 .data.studio span a[href$="/132"] {
     color: #eb6303 !important;
     border-color: #eb6303 !important;
-    font-family: 'Amiri' !important;
+    /*font-family: 'Amiri' !important;
     font-size: 11pt !important;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;"/
 }
 
 /* Shin-Ei Animation */
 .data.studio span a[href$="/247"] {
     color: #e60000 !important;
     border-color: #e60000 !important;
-    font-family: 'Bebas Neue', cursive;
+    /*font-family: 'Bebas Neue', cursive;
     font-size: 12pt !important;
     font-weight: bold;
     letter-spacing: 0.5pt !important;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Kinema Citrus */
 .data.studio span a[href$="/290"] {
     color: #aace37 !important;
     border-color: #007457 !important;
-    font-size: 10pt !important;
+    /*font-size: 10pt !important;*/
 }
 
 /* MAPPA */
 .data.studio span a[href$="/569"] {
     color: #006837 !important;
     border-color: #006837 !important;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 /* Wit Studio */
 .data.studio span a[href$="/858"] {
     color: #28893a !important;
     border-color: #28893a !important;
-    font-family: sans-serif;
+    /*font-family: sans-serif;
     font-size: 11.5pt !important;
     font-weight: 700;
     letter-spacing: 0.5pt !important;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 /* Bandai Namco Pictures */
@@ -600,9 +599,9 @@ body {
 .data.tags span a[href$="hololive"] {
     color: #34c9fe !important;
     border-color: #4e9eed !important;
-    font-family: 'Chicago', 'chicago-regular' !important;
+    /*font-family: 'Chicago', 'chicago-regular' !important;
     font-size: 10pt !important;
-    text-transform: lowercase;
+    text-transform: lowercase;*/
 }
 
 /*------------------------E-N-D-*/
