@@ -159,21 +159,20 @@ body {
     font-family: 'Kanit';
     font-size: 12pt;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 40px;
     margin: 0;
     order: 1;
     position: absolute;
     text-align: center !important;
     top: 0;
-    width: 20px;
+    width: 40px;
 }
 
 .list-item:nth-child(n+11) .data.number {
-    margin: 0;
     text-indent: 0 !important;
-    width: 30px !important;
+    /*width: 30px !important;*/
 }
-
+/*
 .list-item:nth-child(n+101) .data.number {
     margin: 0;
     text-indent: 0 !important;
@@ -185,7 +184,7 @@ body {
     text-indent: 0 !important;
     width: 50px !important;
 }
-
+*/
 /*------------------------E-N-D-*/
 
 
